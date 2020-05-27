@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="author" content="Aayush Manandhar">
+
+  <title>Manandhar Posts</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="/">predictMAX</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/corona">Corona Data</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/number">Year Facts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/signup">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/Adammanandhar">Github</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/ann_main.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Introduction to Artificial Neural Network</h1>
+            <h2 class="subheading">Simple way to understand a complex model</h2>
+            <span class="meta">Written by
+              <a href="/about.html">Aayush Manandhar</a>
+              on May 22, 2020</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>Neural networks have been gaining a tremendous interest in the recent decade, although it has been well researched during the mid and late 90s. The main reason for the rise in Neural networks in the recent decade is the improvement in the computing capability that can process vast amounts of data. We can take the example of various applications of Neural networks in the field of facial recognition, Self Driving Cars, Time series analysis, Natural Language processing, and many other tasks a human beings can do.</p>
+          <p>
+           A neural network is based on the model our brain works. It's basically replicating the learning process of our brain and applying it to the machine. The computer learns to perform specific tasks using neural networks by analyzing various training examples fed into it. The model makes lots of inaccurate predictions in the beginning, but as more and more data gets passed in during training, it can analyze the patterns and make a better projection. It's like teaching a child to distinguish between a horse and a donkey. At first, the child could make some mistake, but as the child sees more pictures and gets experienced enough to differentiate the pattern between a horse and a donkey, the child will successfully know which one is a donkey and which one is a horse.
+          </p>
+
+          <p>Traditionally, When working with computers, we have always been giving commands to the computer to execute specific tasks. We can take the example of if-else, switch, and various other logics we give to a program. When we have to build something complicated, the scope is limited, like analyzing vast amounts of time series data, image patterns, and natural language processing. We can't imagine writing a particular code for every new event or circumstance a machine is fed on. For example, if we want to make an image classification for a dog, just by writing, look for a tail, four legs, and other details will not help as every picture we pass to the computer might be different.
+
+          </p>
+          <div class="container">
+          <div class="row">
+          <div class="col">
+            <a href="#">
+              <img class="img-fluid" src="img/dog1.png" alt="">
+            </a>
+          </div>
+          <div class="col">
+
+              <img class="img-fluid" src="img/dog2.png" alt="">
+
+            <a href="https://www.akc.org/expert-advice/lifestyle/35-perfect-pictures-of-dogs/">
+              <span class="caption text-muted">image source</span>
+            </a>
+          </div>
+          </div>
+
+          <p>We should make the computer able to identify the features of the image and differentiate it from other animals. This is made possible through convolutional neural networks(CNN). Likewise, computers should be able to make a decision based on how it's trained and make a prediction based on their weights and probability. By the use of neural networks, we can train the computer to think and adjust the weight itself rather than depending on a human command.</p>
+
+            <img class="img-fluid" src="img/neuron_brain.png" alt="">
+
+          <a href="https://commons.wikimedia.org/wiki/File:Neuron.svg">
+            <span class="caption text-muted">image source</span>
+          </a>
+          <p>let's talk about how our human brain works before going deep on the Neural Network. Our human brain has almost 86 billion neurons, and they are connected to each other. A neuron gets its information from dendrites and passes the information or signals to the other end of the cell through axons. But the interesting thing is that the neuron only passes the signal if the total signal received by the cell body exceeds a threshold. The threshold is a point or a barrier that needs to be passed to execute something. The threshold is like a binary digit 0 and 1. It either fires or not. The more neurons in our brain fire, the stronger the connection is in our brain. Canadian psychologist named Donald Hebb researched this theory, where he explained the foundation of how the human brain learns and gets perfect on something. We can also take an example of us learning a foreign language. We are going to make tons of slips at first, but once we practice and understand the basics, it makes the connection between the neurons in our brain stronger and ultimately makes us fluent.
+          </p>
+          <div class="row">
+          <div class="col">
+
+              <img class="img-fluid" src="img/Annmodel.png" alt="">
+
+            <a href="https://en.wikipedia.org/wiki/Artificial_neural_network">
+              <span class="caption text-muted">image source</span>
+            </a>
+          </div>
+          <div class="col">
+
+              <img class="img-fluid" src="img/input_output.png"  alt="" style="margin-top:10%">
+
+            <a href="https://ujjwalkarn.me/2016/08/09/quick-intro-neural-networks/">
+              <span class="caption text-muted">image source</span>
+            </a>
+          </div>
+          </div>
+
+          <p>Now, let's head to artificial neural networks. I will be giving a background view of how an artificial neural network works and learn. We have an input layer that takes an input signal and passes it to a hidden layer. A hidden layer transforms the input layer by adjusting the weight and bias. Finally, the output layer or layers, if we are dealing with categorical output, gives the result that's been processed by hidden layers. </p>
+
+          <h4 class="section-heading">Input Layer</h4>
+
+          <p>Input layers take the input and pass it to the hidden layer. They are independent and aren't changed by other variables we are trying to measure. There is no computation that's done in the input layer, and the only thing it does is pass the information or data to the hidden layer. We can also find a neural network that doesn't have hidden layers, and it's called a single-layer perceptron.
+          </p>
+            <img class="img-fluid" src="img/weight_bias.png" alt="">
+
+          <h4 class="section-heading">Weights and Bias</h4>
+
+          <p>Adjusting weights is a crucial process of how a neural network learns and is changed every time a neural network learns. As a neural network keeps learning, it starts analyzing and adjusting the best weight that could lead to a better prediction. Weights can also be called as the strength of the connection as it drastically affects the amount of change in the input will have upon the output. Similarly, a Bias can be compared to the intercept of a linear equation. It helps to give a constant value to every node and shift the activation function to either right or left.
+
+          </p>
+          <h4 class="section-heading">Hidden Layer</h4>
+
+          <p>In the hidden layer, the neuron takes the weighted sum of all the input values it is getting and applies the activation function. Based on the weighted sum, it determines whether to pass the signal or not. We have various activation functions, but the four popular and mostly used activation functions are threshold activation function, sigmoid function, rectifier function (ReLU), and hyperbolic tangent function. Talking about threshold function, it is a straightforward function that is either 0 or 1. Likewise, The rectifier function is the most commonly used function. This function starts from zero and keeps increasing as the input value progresses. This function is also called a rectified linear unit (ReLU). Similarly, Sigmoid function is a logistic function and has an S-shaped curve and is mostly used in the output layer when we have determined the probability of the output. Finally, the Hyperbolic tangent function is similar to the Sigmoid function, but it ranges from negative 1 to 1.
+
+            <img class="img-fluid" src="img/activation.png" alt="" style="width:700px" >
+          <a href="http://www.feeny.org/scaling-data-deep-learning/">
+            <span class="caption text-muted">image source</span>
+          </a>
+
+          </p>
+          <h4 class="section-heading">Output Layer</h4>
+
+          <p>The output layer is the final layer of the artificial neural network and gets input from the hidden layer. An output value can be of three types. It can be continuous, which gives output on a specific range or it could be binary where it's either yes or no, or categorical where we have to select between various categories like distinguishing between a dog, cat, or a fox.
+
+          </p>
+          <p>
+            Finally, The important question is, how do weights get adjusted, and how can the best weight be selected? This is where gradient descent and backpropagation come in place, which is a topic for my next article.
+
+          </p>
+
+          <p>Reference:
+            <a href="http://news.mit.edu/2017/explained-neural-networks-deep-learning-0414">MIT news</a>.
+            <a href="https://github.com/amourav/neural_network_from_scratch">Amourav/Github</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com/channel/UCuiq9inpQtMPekrYcUWUs3A?view_as=subscriber">
+                <span class="fa-stack fa-2x" style="color:black">
+
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/iush.adams/">
+                <span class="fa-stack fa-2x">
+
+                  <i class="fas fa-circle fa-stack-2x" style="color:black"></i>
+                  <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/Adammanandhar">
+                <span class="fa-stack fa-2x" style="color:black">
+
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+              </a>
+            </li>
+
+          </ul>
+          <p class="copyright text-muted" style="margin-top:3%">Copyright &copy;  Manandhar 2020</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,279 @@
+
+
+body {
+  background-color:#ee7777;
+
+}
+#mainNav .navbar-brand {
+  font-weight: 800;
+  color: #343a40;
+}
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.second{
+  height: 500px;
+}
+.third{
+position: relative;
+  text-align: center;
+  padding-left: 100px;
+
+
+}
+.row.flexbox{
+  position: relative;
+  bottom: 100px;
+}
+.brand_div{
+    text-align: center;
+    height: 10px;
+}
+.brand_img{
+  width:20%;
+}
+.main_img{
+  width: 100%;
+  height: 100%;
+
+
+}
+.main_img_container {
+  position: relative;
+  text-align: center;
+height: 100%;
+
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading_text {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+}
+.main_qoute{
+  font-size: 6vw;
+  color: white;
+}
+b{
+
+  color: white;
+  font-size: 25px;
+}
+.aboutme{
+
+  padding: 0% 8%;
+  position: relative;
+  text-align: center;
+}
+.aboutme_font{
+  font-size: 4rem;
+  font-family: 'Lobster', cursive;
+  color: #cc0066;
+}
+.about_img{
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+
+}
+.aboutme_par{
+
+    font-size: 1.5rem;
+}
+
+
+
+.timeline{
+  margin:0% 3%;
+
+
+  position: relative;
+  padding: 0% 8%;
+  text-align: center;
+}
+.square {
+
+    margin: 5% 0%;
+
+    border: 5px solid #c9b6e4;
+
+    text-align: center;
+
+    width: 17vw;
+
+    height: 17vw;
+
+  }
+  .content {
+  font-size: 2.5vw;
+  padding-top: 20%;
+  font-family: 'Cuprum', sans-serif;
+  }
+.row.timeline{
+  margin-left: 10px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.number_font{
+  font-size: 4vw;
+}
+
+
+.fourth{
+
+  margin-bottom: 0px;
+  position: relative;
+  padding: 0% 8%;
+}
+.col-lg-6.skills{
+
+  text-align: center;
+  padding:8% 0%;
+  padding-top: 20px;
+
+}
+.col-lg-6.skills1{
+margin-top: 20px;
+  text-align: center;
+
+
+}
+.skills{
+  font-size: 3rem;
+  color: black;
+  font-family: 'ABeeZee', sans-serif;
+}
+.coding_img{
+  width: 80%;
+  height:80%;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+h4{
+padding-bottom: 0px;
+
+}
+h4:hover{
+  transform: scale(1.2);
+}
+.social{
+  position: relative;
+  margin-top: 20px;
+
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+
+
+
+
+
+
+
+
+footer {
+  padding: 50px 0 65px;
+}
+
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+}
+
+footer .copyright {
+  font-size: 14px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.profile_div{
+margin-top: 30px;
+margin-bottom: 40px;
+
+}
+.col-lg-6.rights{
+  margin-top: 10%;
+}
+
+
+
+
+
+.row.projectone{
+  padding: 10% 0%;
+}
+.projectheading_text{
+  font-family: 'Patua One', cursive;
+  text-align: center;
+}
+.projectheading_text_par{
+  font-family: 'Patua One', cursive;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.projectheading_text:hover{
+  transform: scale(1.2);
+}
+.main_img_container_project {
+  position: relative;
+  text-align: center;
+height: 80%;
+
+
+}
+.firstproject{
+
+    padding: 0% 8%;
+    padding-top: 5%;
+    position: relative;
+    text-align: center;
+}
+.topleft{
+    font-family: 'Patua One', cursive;
+
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  transform: translate(-50%, -50%);
+}
+.topleft_font{
+  color: black;
+
+}
