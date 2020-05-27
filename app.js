@@ -23,7 +23,7 @@ app.get("/post",function(req,res){
   res.sendFile(__dirname+"/post.html");
 });
 app.get("/projects",function(req,res){
-  res.sendFile(__dirname+"/myprojects.html");
+  res.sendFile(__dirname+"/myProjects.html");
 });
 app.get("/about",function(req,res){
   res.sendFile(__dirname+"/about.html");
