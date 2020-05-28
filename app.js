@@ -55,7 +55,7 @@ app.post("/weather",function(req,res){
   const apiKey="1fe69d9ae40548a7e900a741a10c6f09#";
   const unit="metric";
 
-  const url="https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=1fe69d9ae40548a7e900a741a10c6f09&units=imperial";
+  const url="https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=";
 //Gets the response from the urs
   https.get(url,function(response){
 //The response we get from the url is stored in data variable
@@ -96,7 +96,7 @@ app.post("/number",function(req,res){
     "headers":{
     "content-type":"application/octet-stream",
     "x-rapidapi-host":"numbersapi.p.rapidapi.com",
-    "x-rapidapi-key":"d40921c3d7msh2515190b6aea4a0p1f0b95jsn21ccc06ea084",
+    "x-rapidapi-key":"",
     "useQueryString":true
     },"params":{
     "fragment":"true",
@@ -125,7 +125,7 @@ app.post("/number",function(req,res){
     "headers":{
     "content-type":"application/octet-stream",
     "x-rapidapi-host":"covid-19-data.p.rapidapi.com",
-    "x-rapidapi-key":"d40921c3d7msh2515190b6aea4a0p1f0b95jsn21ccc06ea084",
+    "x-rapidapi-key":"",
     "useQueryString":true
     },"params":{
     "format":"json",
@@ -172,11 +172,11 @@ app.post("/number",function(req,res){
 
       };
       const jsonData=JSON.stringify(data);
-      const url="https://us18.api.mailchimp.com/3.0/lists/63f445bf4d";
+      const url="https://us18.api.mailchimp.com/3.0/lists/";
 
       const options={
         method:"POST",
-        auth:"manandhar17:5d59a7c8722b79be0390d3ff705ec9e2-us18"
+        auth:"manandhar17:"
       };
       const request= https.request(url,options,function(response){
         if (response.statusCode ==200){
