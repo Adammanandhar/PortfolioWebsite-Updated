@@ -36,6 +36,9 @@
                 <a class="nav-link" href="/number">Year Facts</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="/number">Year Facts</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="/">Blog</a>
               </li>
               <li class="nav-item">
@@ -71,22 +74,35 @@
       </header>
 
       <!-- Main Content -->
+
+
+
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
-          <h5><p>Please enter the name of the Country to get the updated data</p></h5>
+            <p>Please enter the name of the Country to get the updated data</p>
 
-            <form  action="/corona" method="post">
-              <label for="city">Country Name: </label>
-              <input type="text" name="countryName" value="">
-              <button class="btn btn-dark" type="submit" name="button">Submit</button>
+            <form action="/corona" method="post" name="sentMessage" id="contactForm" novalidate >
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Country Name</label>
+                  <input type="text"  name="countryName" class="form-control" placeholder="Country" id="name" required data-validation-required-message="example Brazil">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
 
+
+
+              <br>
+              <div id="success"></div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-dark" id="sendMessageButton">Submit</button>
+              </div>
             </form>
-
-
           </div>
         </div>
       </div>
+
 
 
       <hr>
