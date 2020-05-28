@@ -52,7 +52,7 @@ app.post("/weather",function(req,res){
   //Making our inputs dynamic
   //Form our root route we are reqesting the form input that has name cityName
   const city =req.body.cityName;
-  const apiKey="1fe69d9ae40548a7e900a741a10c6f09#";
+  const apiKey="";
   const unit="metric";
 
   const url="https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=";
